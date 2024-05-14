@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 200px; */
+}
+
+ header { 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+    align-self: flex-end;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header button { 
+    padding: 8px 23px;
+    background-color: #1A73E8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+header button:hover{
+    background-color: #1a0dab;
+}
+
+ a:hover {
+    text-decoration: underline;
+}
+
+header svg:hover {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.search { 
+    display: flex;
+    border: 1px solid #ccc;
+    width: 500px;
+    gap: 15px; 
+    padding: 10px; 
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.search img {
+    width: 20px;
+}
+
+.search:hover {
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.search-input { 
+    border: none;
+    outline: none;
+    width: 100%;
+} 
+
+.sign button {
+    border: none;
+    padding: 7px 10px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+}
+
+.sign button:hover {
+    border: 1px solid #ccc;
+    
+}
+
+.lang {
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.lang a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f1eeee;
+    padding: 15px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.foot p {
+    margin: auto;
+    padding-right: 100px;
+}
+
+.foot img {
+    width: 13px;
+    padding-right: 5px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+
+
+
